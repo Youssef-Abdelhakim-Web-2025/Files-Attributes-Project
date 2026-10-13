@@ -1,4 +1,4 @@
-PS C:\Users\Hakim> $targetDir = "F:\PSDocManager"
+$targetDir = "F:\PSDocManager"
 if (!(Test-Path $targetDir)) { New-Item -ItemType Directory -Path $targetDir }
 
 # 1. Create files with multiple attributes
